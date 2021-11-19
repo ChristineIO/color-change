@@ -1,0 +1,38 @@
+body {
+    background-image: url("./rose.jfif");
+    background-repeat: repeat-x;
+    justify-content: center;
+    background-size: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.colorGen{
+    border-radius: 7.5px;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 23px;
+    background: transparent;
+    padding: 10px 20px 10px 20px;
+    border: solid #012c40 2px;
+    display: flex;
+    align-items:center;
+    border-color: #6c757d;
+}
+
+.colorGen:hover {
+    background-color: #6c757d;
+}
+
+#img {
+    margin-right: 2%;
+}
+
+.hexCode {
+    font-family: "Nuninto", sans-serif;
+    position: absolute !important;
+    text-transform: uppercase;
+    margin-top: 15%;
+    font-size: 32px;
+    left: 46%;
+}
